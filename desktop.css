@@ -1,0 +1,9 @@
+/* @media screen and (min-width:1025px) and (orientation:landscape) se usa para tablets, laptops y pc's*/
+@media screen and (min-width:1280px) and (orientation:landscape) /* esto es para PC's y laptops de pantalla con gran resolución */
+{
+     section
+     {
+         max-height: 620px;
+         max-width: 750px;
+     }
+}

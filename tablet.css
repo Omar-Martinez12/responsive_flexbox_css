@@ -1,0 +1,9 @@
+@media screen and (min-width: 640px) and (max-width: 1280px)
+{
+
+}
+
+@media screen and (min-width:1025px) and (orientation:landscape)
+{
+   /* Se puede usar tambien para tablets */
+}

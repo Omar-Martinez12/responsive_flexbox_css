@@ -1,0 +1,13 @@
+@media screen and (max-width: 640px) and (orientation:landscape)
+{
+    section
+    {
+        max-height: 320px;
+        max-width: 640px;
+    }
+        .contenedor__mensaje, .form
+        {
+        width: 90%;
+        margin: 0 auto;
+        }
+}
