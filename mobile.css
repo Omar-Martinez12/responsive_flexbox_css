@@ -1,61 +1,65 @@
-/* Estilos específicos para dispositivos móviles */
-.contenedor {
-  padding: 20px;
+/* Estilos para dispositivos móviles de 980px */
+@media screen and (max-width: 980px) {
+  .contenedor {
+    flex-direction: column;
+  }
+
+  .contenedor__titulo {
+    margin-bottom: 2rem;
+  }
+
+  .form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .form__titulo {
+    padding: 1.5rem;
+  }
+
+  .form__contenedoriconos {
+    width: 70%;
+  }
+
+  .form__input {
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
+
+  .form__input-color {
+    width: 90%;
+    margin-top: 2rem;
+  }
 }
 
-.contenedor__mensaje {
-  text-align: center;
-  margin-bottom: 20px;
-}
+/* Estilos para dispositivos móviles de 700px */
+@media screen and (max-width: 700px) {
+  .contenedor__subtitulo {
+    font-size: 1.2rem;
+  }
 
-.contenedor__subtitulo {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
+  .contenedor__boton {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
 
-.contenedor__parrafo {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
+  .form__titulo {
+    padding: 1rem;
+  }
 
-.contenedor__boton {
-  display: block;
-  width: 100%;
-  max-width: 300px;
-  margin: 0 auto;
-}
+  .form__parrafo {
+    padding: 1.5rem 0;
+  }
 
-.form__titulo {
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 20px;
-}
+  .form__input {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+  }
 
-.form__contenedoriconos {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.form__iconos {
-  margin-right: 10px;
-}
-
-.form__parrafo {
-  font-size: 16px;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.form__input {
-  width: 100%;
-  max-width: 300px;
-  margin-bottom: 15px;
-}
-
-.form__button {
-  display: block;
-  width: 100%;
-  max-width: 300px;
-  margin: 0 auto;
+  .form__input-color {
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+  }
 }
